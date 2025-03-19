@@ -14,16 +14,16 @@ namespace jurnal5_103022300035
             dynamic tempA = a;
             dynamic tempB = b;
             dynamic tempC = c;
-            dynamic high = tempA;
+            dynamic highest = tempA;
             if (tempA < tempB)
             {
-                high = tempB;
+                highest = tempB;
             }
             if (tempB < tempC)
             {
-                high = tempC;
+                highest = tempC;
             }
-            return high;
+            return highest;
         }
     }
 }
